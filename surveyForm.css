@@ -1,0 +1,89 @@
+#container{
+  width: 80%;
+  margin: auto;
+  background-color: #99ccff;
+  height: auto;
+  border-radius: 10px;
+}
+
+#title{
+  text-align: center;
+  color:  white;
+  padding-top: 17px;
+}
+#description{
+  color: white;
+  margin: auto 8%;
+}
+body{
+  background-color:  #000066;
+}
+main{
+  margin: auto 8%;
+
+}
+table{
+  border: 1px solid gray;
+  margin-top: 10px;
+}
+
+.label{
+  margin-right: 10px;
+}
+.tdata{
+  width: 50%;
+  text-align: right;
+  margin-right: 10px;
+}
+#button{
+  text-align: center;
+}
+input[type=text] {
+  width: 95%;
+  height: 37px;
+
+}
+input[type=number] {
+  width: 95%;
+  height: 37px;
+
+}
+select{
+  width: 95%;
+  height: 37px;
+
+}
+td{
+  padding: 10px;
+}
+.radio-div{
+  padding: 5px;
+}
+#textarea{
+  width: 95%
+}
+@media screen and (max-width: 766px){
+  table, thead, tbody, th, td, tr {
+		display: block;
+	}
+  .tdata{
+    width: 100%;
+    text-align: left;
+  }
+  select {
+    width: 95%;
+  }
+  .radio-div{
+    text-align: center;
+  }
+  .checkbox {
+      line-height: 32px;
+      margin-left: 33%;
+  }
+}
+#submit{
+  color: blue;
+    padding: 10px;
+    width: 114px;
+}
+}

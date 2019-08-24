@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="surveyForm.css">
+    <title></title>
+  </head>
+  <body>
+    <div id="container">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      <main>
+        <form id="survey-form">
+        <table>
+            <tr>
+              <td class="tdata"><label for="name" id="name-label" class="label">Name</label></td>
+              <td><input type="text" name="name" placeholder="Enter you name" id="name" required></td>
+            </tr>
+          <tr>
+            <td class="tdata"><label for="email"  id="email-label" class="label">Email</label></td>
+            <td><input type="text" name="email" placeholder="Enter your email" id="email" required></td>
+          </tr>
+          <tr>
+            <td class="tdata"><label for="number" id="number-label" class="label">Age</label></td>
+            <td><input type="number" name="age" placeholder="Enter your age"  id="number" required min="1" max="2"></td>
+          </tr>
+          <tr>
+            <td class="tdata"><label for="dropdown" id="dropdown-label" class="label">Which role best describes your currenr role</label></td>
+            <td>
+            <select name="dropdown" id="dropdown">
+                <option value="student">Student</option>
+                <option value="entry-level">Entry level</option>
+                <option value="mid-level">Mid-Level</option>
+                <option value="senior">Senior Level</option>
+            </select>
+          </td>
+          </tr>
+          <tr>
+            <td class="tdata"><label for="" class="label">What Program do you want to study?</label></td>
+            <td>
+              <div class="radio-div">
+                <input type="radio" name="radio" id="f-end" value="front-end">
+                <label for="f-end">Front End Developer</label>
+              </div>
+              <div class="radio-div">
+                <input type="radio" name="radio" id="b-end" value="front-end">
+                <label for="b-end">Back End Developer</label>
+              </div>
+              <div class="radio-div">
+                <input type="radio" name="radio" id="full-Stack" value="front-end">
+                <label for="full-Stack">Full Stack Developer</label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="tdata"><label for="" class="label">What languages you are already finiliar with?</label></td>
+            <td>
+              <div class="checkbox">
+                <input type="checkbox" name="checkbox" value="html" id="checkbox"> Html
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="checkbox" value="css" id="checkbox"> CSS
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="checkbox" value="js" id="checkbox"> Javascript
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="checkbox" value="react" id="checkbox"> React
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="checkbox" value="angular" id="checkbox"> Angular
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="checkbox" value="other" id="checkbox"> Other Many
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="tdata"><label for="textarea" id="textarea-label" class="label">Any additional information you want to share:</label></td>
+            <td><textarea name="textarea" rows="8" cols="80" id="textarea" placeholder="Comments"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan=2 id="button"><button type="button" name="button" id="submit">Submit</button></td>
+          </tr>
+      </table>
+    </form>
+      </main>
+    </div>
+  </body>
+</html>
